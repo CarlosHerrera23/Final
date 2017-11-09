@@ -3,9 +3,9 @@ const homepage = `
 
 	<main>
 		<section id="banner">
-			<img src="https://okhosting.com/resources/uploads/2016/01/crear-una-tienda-virtual.jpg">
+			<img src="https://www.tiendascorripio.com.do/wp-content/uploads/2016/03/TDC_BannerWEB_LB_mobile.png">
 			<div class="contenedor">
-				<h2>TechMarts La Tienda del Futuro</h2>
+				<h2>TechMarts Equipos Moviles & Mas</h2>
 				<p>Quieres Conocer mas Hacerca de La tienda</p>
 				<a href="#">Leer Mas</a>
 			</div>
@@ -25,17 +25,24 @@ const homepage = `
 			<h3>Lo ultimo de Nuestra Tienda</h3>
 			<div class="contenedor">
 				<article>
-					<img src="https://cdn.dribbble.com/users/300766/screenshots/1290406/imac.gif">
-					<h4>Micro Computadoras</h4>
+					<img src="http://www.crn.com/sites/default/files/ckfinderimages/userfiles/images/crn/misc/2017/iphone-x-galaxy-s8-400.jpg">
+					<h4>Iphone X</h4>
 				</article>
 				<article>
-					
-					<img src="https://media.giphy.com/media/l1KVaBBR8VGg57Hdm/giphy.gif" >
-					<h4>Equipos Moviles</h4>
+					<img src="http://www.jarir.com/media/catalog/product/cache/1/image/400x400/9df78eab33525d08d6e5fb8d27136e95/4/9/491078.jpg" >
+					<h4>Huawei Mate 10 Pro</h4>
 				</article>
 				<article>
-					<img src="https://i.imgur.com/l0Jdr4I.gif">
-					<h4>Juegos</h4>
+					<img src="https://i.ebayimg.com/images/g/QHkAAOSww3tY3UtO/s-l400/p.jpg">
+					<h4>Galaxy S8</h4>
+				</article>
+				<article>
+					<img src="http://www.crn.com/sites/default/files/ckfinderimages/userfiles/images/crn/slideshows/2017/google-pixel2-xl-apple-iphone-8plus/google-pixel2-xl400.jpg">
+					<h4>Google Pixel 2 XL</h4>
+				</article>
+				<article>
+					<img src="http://articlewebbies.com/wp-content/uploads/2017/05/oneplus-3-smartphone-6GB-ram-64GB-storage-400x400.jpg">
+					<h4>One Plus 3+</h4>
 				</article>
 
 			</div>
@@ -47,23 +54,26 @@ const homepage = `
 				<div class="info-pet">
 					<img src="http://ceoconsultores.mx/assets/images/certificacion-1400x881.png">
 					<h4>Certififcados</h4>
+					<p>En Nuestro Productos</p>
 				</div>
 				<div class="info-pet">
 					<img src="http://answare-tech.com/wp-content/uploads/2017/04/logo-iso-596x540.png">
 					<h4>Calidad</h4>
+					<p>En Cada Uno de Los Productos</p>
 				</div>
 				<div class="info-pet">
 					<img src="http://conceptodefinicion.de/wp-content/uploads/2011/09/garantia.png">
 					<h4>Garantia</h4>
+					<p>En Todos Los Equipos</p>
 				</div>
 				<div class="info-pet">
 					<img src="http://www.myway.com.br/wp-content/uploads/2015/07/reembolso-proporcional-300x297.png">
 					<h4>Reembolsoo</h4>
+					<p>Por Problemas De Fabrica</p>
 				</div>
 			</div>
 		</section>
 	</main>
  `
-
 
 export default homepage
