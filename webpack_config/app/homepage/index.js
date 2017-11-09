@@ -1,6 +1,5 @@
 
 const homepage = `
-
 	<main>
 		<section id="banner">
 			<img src="https://www.tiendascorripio.com.do/wp-content/uploads/2016/03/TDC_BannerWEB_LB_mobile.png">
