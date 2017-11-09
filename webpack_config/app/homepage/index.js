@@ -3,7 +3,7 @@ const homepage = `
 
 	<main>
 		<section id="banner">
-			<img src="http://imaginadigital.mx/wp-content/uploads/2015/06/tienda-en-linea.jpg">
+			<img src="https://okhosting.com/resources/uploads/2016/01/crear-una-tienda-virtual.jpg">
 			<div class="contenedor">
 				<h2>TechMarts La Tienda del Futuro</h2>
 				<p>Quieres Conocer mas Hacerca de La tienda</p>
@@ -64,5 +64,6 @@ const homepage = `
 		</section>
 	</main>
  `
+
 
 export default homepage
