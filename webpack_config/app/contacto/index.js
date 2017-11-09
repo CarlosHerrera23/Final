@@ -5,65 +5,67 @@ const contacto = `
 	<title>Formulario De Contacto</title>
 	<meta charset="UTF-8">
 	<style type="text/css">
-	body{
-	
-	background-size: 100vw 137vh;
-	background-attachment: fixed;
-	margin: 0;
-	font-family: monospace;
+	/*Contactenos*/
+body{
+    background-image: url(http://www.grupoalldigital.com/entradan/images/2.png);
+    background-size: 100vw 137vh;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: monospace;
 }
 
 form{
-	width: 450px;
-	margin: auto;
-	background: rgba(0,0,0,0.4);
-	box-sizing: border-box;
-	margin-top: 20px;
-	border-radius: 7px;
+    width: 450px;
+    margin: auto;
+    background: rgba(0,0,0,0.4);
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
 }
 
 
 h2{
-	color: #fff;
-	text-align: center;
-	margin: 0;
-	font-size: 30px;
-	margin-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
 }
 
 input,textarea{
-	width: 100%;
-	margin-bottom: 20px;
-	padding: 7px;
-	box-sizing: border-box;
-	font-size: 17px;
-	border: none;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
 }
 
 textarea{
-	min-height: 100px;
-	max-height: 200px;
-	max-width: 100%;
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
 }
 
 
 #boton{
-	background: #31384A;
-	color: #fff;
-	padding: 20px;
+    background: #31384A;
+    color: #fff;
+    padding: 20px;
 }
 
 #boton:hover{
-	cursor: pointer;
+    cursor: pointer;
 }
 
 @media (max-width: 480px){
-	form{
-		width: 100%;
-	}
+    form{
+        width: 100%;
+    }
 }
 
-</style>
+/*Contactenos*/
+	</style>
 </head>
 <body>
 	<form action="">
