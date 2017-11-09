@@ -37,8 +37,8 @@ const homepage = `
 					<h4>Galaxy S8</h4>
 				</article>
 				<article>
-					<img src="http://www.crn.com/sites/default/files/ckfinderimages/userfiles/images/crn/slideshows/2017/google-pixel2-xl-apple-iphone-8plus/google-pixel2-xl400.jpg">
-					<h4>Google Pixel 2 XL</h4>
+					<img src="http://www.fruvisalibre.com/wp-content/uploads/2017/10/samsung-galaxy-note-8-oro-400x400.jpg">
+					<h4>Galaxy Note 8</h4>
 				</article>
 				<article>
 					<img src="http://articlewebbies.com/wp-content/uploads/2017/05/oneplus-3-smartphone-6GB-ram-64GB-storage-400x400.jpg">
