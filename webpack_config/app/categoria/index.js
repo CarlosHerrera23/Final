@@ -16,16 +16,38 @@ const categoria = () => {
 		for (var i = 0; i < keys.length; i++) {
 			var key = keys[i]
 			var equipo = arrayDatos[key]
-			'<h1>${equipo.Modelo}</h1>'
+			
 			
 			htmlcate = `
 				  <table>
 				    <thead>
+				    <br >
+				    <br >
+				    <br >
 				      <tr>
-				        <th>Equipo Moviles</th>
+				        <th>Celular</th>
 				      </tr>
 				    </thead>
 				  </table>
+				  <tr>
+				  <th>Nombre Del Equipo : ${equipo.Phone}</th><p>
+				  <th>Camara : ${equipo.Camara}</th><p>
+				  <th>Capacidad : ${equipo.Capacidad}</th><p>
+				  <th>Color : ${equipo.Color}</th><p>
+				  <th>OS : ${equipo.OS}</th><p>
+				  <th>Imagen : ${equipo.Imagen}</th><p>
+				  <span class="card-title">${equipo.Imagen}</span>
+				  		${
+				  			equipo.Imagen
+			                ?
+			                ` 
+			                  <figure>
+			                    <img src=${equipo.Imagen}/>
+			                  </figure>`
+			                : ''
+			              }
+				  </tr>
+				   
 			`
 			html += htmlcate	
 		}
@@ -35,8 +57,13 @@ const categoria = () => {
 			<div class="container">
 				<div class="page">
 					<section>
-						<header>
-							<h2 class="section-title">Menu categoria</h2>
+					<header>
+						
+							<h1 class="section-title">Equipos Moviles</h1>
+							
+							<h2 class="section-title" onclick="history.back()" ><p align="right">Atras</p></h2>
+
+						
 						</header>
 						<div class="product-list">
 							${html}
@@ -49,17 +76,16 @@ const categoria = () => {
 		const main = document.querySelector('main')
 		main.innerHTML = index
 
-		console.log(keys)
+		//console.log(keys)
+		console.log(equipo)
 		
 	}
 
-	db.ref('Equipos Moviles').once('value').then(obtenerDatos)
+	db.ref('Categoria').once('value').then(obtenerDatos)
 
 
 	/*const main = document.querySelector('main')
 	main.innerHTML = layout(categoria)*/
 }
-
-
 
 export default categoria
