@@ -1,10 +1,9 @@
-var config = {
-    apiKey: "AIzaSyDFPS39wdWh8CY_i7URAhabSEJBQhdXwvA",
-    authDomain: "proyecto-35f36.firebaseapp.com",
-    databaseURL: "https://proyecto-35f36.firebaseio.com",
-    projectId: "proyecto-35f36",
-    storageBucket: "proyecto-35f36.appspot.com",
-    messagingSenderId: "455896337990"
+ var config = {
+    apiKey: "AIzaSyCFlaOycO9cjohYT88cKz6DnqGfmbUrJkE",
+    authDomain: "techstorefinal.firebaseapp.com",
+    databaseURL: "https://techstorefinal.firebaseio.com",
+    projectId: "techstorefinal",
+    storageBucket: "techstorefinal.appspot.com",
+    messagingSenderId: "216629161850"
   }
-
   export default config
