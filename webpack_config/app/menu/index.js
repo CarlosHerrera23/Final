@@ -19,6 +19,7 @@ const menu = `
 				<a href="/acercade">acerda de</a>
 				<a href="/contacto">Contactos</a>
 				<a href="/categoria">Categoria</a>
+				<a href="/login">login</a>
 			</nav>
 			
 		</div>
