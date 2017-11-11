@@ -16,10 +16,10 @@ const menu = `
 			
 			<nav class="menu">
 				<a href="/">Inicio</a>
-				<a href="/acercade">acerda de</a>
+				<a href="/acercade">Acerda De Nosotros</a>
 				<a href="/contacto">Contactos</a>
 				<a href="/categoria">Categoria</a>
-				<a href="/login">login</a>
+				<a href="/login">Inicio De Secion</a>
 			</nav>
 			
 		</div>
