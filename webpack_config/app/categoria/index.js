@@ -53,6 +53,12 @@ const categoria = () => {
 		}
 
 		index = `
+		<style type="text/css">
+		atras1{
+			font:blod 50px Broadway;
+			color:#f2f2f2;
+		}
+		</style>
 		<main class="main-content">
 			<div class="container">
 				<div class="page">
@@ -61,7 +67,7 @@ const categoria = () => {
 						
 							<h1 class="section-title">Equipos Moviles</h1>
 							
-							<h2 class="section-title" onclick="history.back()" ><p align="right">Atras</p></h2>
+							<h2 id="atras1" class="section-title" onclick="history.back()" ><p align="right">Atras</p></h2>
 
 						
 						</header>
