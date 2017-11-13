@@ -8,21 +8,31 @@ if (!firebase.apps.length) {
 
 // template
 var loginTemplate = `
+<style type="text/css">
+
+body{
+    background-image: url(https://static1.squarespace.com/static/541ca6ace4b09194f7659e16/t/541fb564e4b0a6db31384587/1411364199494/bridge-lake-bokeh-hd-wallpaper.jpg?format=1500w);  
+    background-size: 100vw 100vh;
+      background-attachment: fixed;
+      margin: 0;
+      font-family: monospace;
+      padding: 10em;
+  }
+
+</style>
 <br>
-<h4 class="card-title center">Entrar / Salir </h4>
+<h4 id ="letra" class="card-title center">Entrar / Salir</h4>
          	<div class="row">
 	         	<div class="row center">
-	         	<br>
-	         	<p align="center">
-	         	 <input type="button" id="googleLogin" value="Entrar con Google"  onclick="googleLogin"/>
-	         	 	</p>
-	         		
+	         	  <br>
+	         		<p align="center">
+						<a id="googleLogin" class="loginBtn loginBtn--google">Login with Google</a></p>
 	         	</div>
          	</div>
          		<form>
-         		<br >
-         		<p align="center">
-         		 <input type="button" value="<------ Atras <------" name="Atrás" onclick="history.back()" /></p>
+         		  <br >
+         			<p align="center">
+         		        <input type="button" id="botonatras" value="<-------  Atras <-------" name="Atrás" onclick="history.back()" /></p>
                 </form>
 
          	`
