@@ -12,45 +12,28 @@ const categoria = () => {
 	const obtenerDatos= function (datos) {
 		var arrayDatos = datos.val()
 		var keys = Object.keys(arrayDatos)  
+		let countRow = 0
 
 		for (var i = 0; i < keys.length; i++) {
 			var key = keys[i]
 			var equipo = arrayDatos[key]
 			
-			
-			htmlcate = `
-				  <table>
-				    <thead>
-				    <br >
-				    <br >
-				    <br >
-				      <tr>
-				        <th>Celular</th>
-				      </tr>
-				    </thead>
-				  </table>
-				  <tr>
-				  <th>Nombre Del Equipo : ${equipo.Phone}</th><p>
-				  <th>Camara : ${equipo.Camara}</th><p>
-				  <th>Capacidad : ${equipo.Capacidad}</th><p>
-				  <th>Color : ${equipo.Color}</th><p>
-				  <th>OS : ${equipo.OS}</th><p>
-				  <th>Imagen : ${equipo.Imagen}</th><p>
-				  <span class="card-title">${equipo.Imagen}</span>
-				  		${
-				  			equipo.Imagen
-			                ?
-			                ` 
-			                  <figure>
-			                    <img src=${equipo.Imagen}/>
-			                  </figure>`
-			                : ''
-			              }
-				  </tr>
-				   
+
+		htmlcate = `
+
+					<br><br><br>
+					<center><font size=6>SmartPhone</font></center>
+					<br>
+				  <center><font size=5>Equipo :</font></center>
+				  <center><a href="/detalle"><img src=${equipo.URL}></a></center>
+				  
 			`
 			html += htmlcate	
-		}
+			 
+			}
+
+
+
 
 		index = `
 		<style type="text/css">
@@ -58,32 +41,36 @@ const categoria = () => {
 			font:blod 50px Broadway;
 			color:#f2f2f2;
 		}
+		#atras1{
+			cursor:pointer;
+		}
 		</style>
 		<main class="main-content">
 			<div class="container">
 				<div class="page">
 					<section>
 					<header>
-						
-							<h1 class="section-title">Equipos Moviles</h1>
-							
-							<h2 id="atras1" class="section-title" onclick="history.back()" ><p align="right">Atras</p></h2>
-
-						
-						</header>
+						<h1 class="section-title">Equipos Moviles</h1>
+						<h2 id="atras1" class="section-title" onclick="history.back()" ><p align="right">Atras</p></h2>
+					</header>
 						<div class="product-list">
-							${html}
+						${html}
 						</div>
 					</section>
 				</div> 
 			</div>
 		</main> 
 		`
+
+
 		const main = document.querySelector('main')
 		main.innerHTML = index
 
-		//console.log(keys)
+		console.log(keys)
+		console.log(key)
 		console.log(equipo)
+		console.log(arrayDatos)
+		console.log(datos)
 		
 	}
 
@@ -95,3 +82,4 @@ const categoria = () => {
 }
 
 export default categoria
+
