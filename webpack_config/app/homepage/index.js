@@ -6,21 +6,23 @@ const homepage = `
 			<div class="contenedor">
 				<h2>TechMarts Equipos Moviles & Mas</h2>
 				<p>Quieres Conocer mas Hacerca de La tienda</p>
-				<a href="#">Leer Mas</a>
+				<a href="/acercade">Leer Mas</a>
 			</div>
 		</section>
 
-		<section id="bienvenido">
-			<h2>BIENVENIDO A NUESTRA TIENDA EN LINEA </h2>
-			<p>Somos una nueva tienda online. Ya sabemos que hay muchas, y seguramente muchas de ellas mejores que nosotros, 
-			pero estamos trabajando muy duro para llegar ahí. Somos un equipo joven y dinámico, a quienes nos encanta lo que hacemos. 
-			Intentamos dar a nuestros clientes el mejor servicio, y nos sentimos orgullosos de poco a poco haber ido fidelizado a 
-			varios de nuestros primeros clientes. Ofrecemos atención telefónica para cualquier duda, recomendaciones y si buscas algo que
-			 no tenemos, nosotros lo buscamos por ti, para aconsejarte donde encontrarlo si no te lo pudiéramos proporcionar nosotros. </p>
+		<section id="bienvenido"><br>
+			<center><h2>BIENVENIDO A NUESTRA TIENDA EN LINEA </h2></center>
+			<center><p>
+			Somos una nueva tienda online. Ya sabemos que hay muchas, y seguramente muchas de ellas mejores<br> 
+			que nosotros,pero estamos trabajando muy duro para llegar ahí. Somos un equipo joven y dinámico, <br>
+			a quienes nos encanta lo que hacemos.Intentamos dar a nuestros clientes el mejor servicio, y nos <br>
+			sentimos orgullosos de poco a poco haber ido fidelizado a varios de nuestros primeros clientes. <br>
+			Ofrecemos atención telefónica para cualquier duda, recomendaciones y si buscas algo queno tenemos, <br>
+			nosotros lo buscamos por ti, para aconsejarte donde encontrarlo si no te lo pudiéramos proporcionar nosotros. </p></center>
 			
 		</section>
 
-		<section id="blog">
+		<section id="blog"><br><br>
 			<h3>Lo ultimo de Nuestra Tienda</h3>
 			<div class="contenedor">
 				<article>
@@ -72,7 +74,24 @@ const homepage = `
 				</div>
 			</div>
 		</section>
+
+		<footer>
+			<p class="copy">TechMarts &copy; 2017</p>
+			<div class="sociales">
+				<a href="https://www.facebook.com/"><img id="uno" name="facebook" src="https://image.flaticon.com/icons/svg/185/185981.svg"></a>
+				<img id="uno" name="twiter" src="https://image.flaticon.com/icons/svg/185/185961.svg">
+				<img id="uno" name="instagram" src="https://image.flaticon.com/icons/svg/174/174855.svg">
+				<img id="uno" name="github" src="https://image.flaticon.com/icons/svg/25/25471.svg">
+				<img id="uno" name="youtube" src="https://image.flaticon.com/icons/svg/185/185983.svg">
+				<img id="uno" name="gplus" src="https://image.flaticon.com/icons/svg/185/185963.svg">
+				<img id="uno" name="twitch" src="https://image.flaticon.com/icons/svg/167/167304.svg">
+			</div>
+		</div>
+	</footer>
+
+
 	</main>
+
  `
 
 export default homepage
