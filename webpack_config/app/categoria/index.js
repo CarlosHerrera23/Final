@@ -59,6 +59,29 @@ const categoria = () => {
 					</section>
 				</div> 
 			</div>
+
+			<footer>
+			
+			<div class="sociales">
+			<p id="letra" class="copy">TechMarts &copy; 2017</p>
+				<a href="https://www.facebook.com/">
+				<img id="uno" name="facebook" src="https://image.flaticon.com/icons/svg/185/185981.svg"></a>
+				<a href="https://twitter.com/">
+				<img id="uno" name="twiter" src="https://image.flaticon.com/icons/svg/185/185961.svg"></a>
+				<a href="https://www.instagram.com/?hl=es-la">
+				<img id="uno" name="instagram" src="https://image.flaticon.com/icons/svg/174/174855.svg"></a>
+				<a href="https://github.com/CarlosHerrera23">
+				<img id="uno" name="github" src="https://image.flaticon.com/icons/svg/25/25471.svg"></a>
+				<a href="https://www.youtube.com/">
+				<img id="uno" name="youtube" src="https://image.flaticon.com/icons/svg/185/185983.svg"></a>
+				<a href="https://plus.google.com/">
+				<img id="uno" name="gplus" src="https://image.flaticon.com/icons/svg/185/185963.svg"></a>
+				<a href="https://www.twitch.tv/">
+				<img id="uno" name="twitch" src="https://image.flaticon.com/icons/svg/167/167304.svg"></a>
+			</div>
+		</div>
+	</footer>
+
 		</main> 
 		`
 
