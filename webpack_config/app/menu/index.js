@@ -24,25 +24,9 @@ const menu = `
 			
 		</div>
 	</header>
-
-
-	<footer>
-		<div class="contenedor">
-			<p class="copy">TechMarts &copy; 2017</p>
-			<div class="sociales">
-				<a class="icon-facebook-squared" href="#"></a>
-				<a class="icon-twitter" href="#"></a>
-				<a class="icon-instagram" href="#"></a>
-				<a class="icon-youtube-play" href="#"></a>
-				<a class="icon-github" href="#"></a>
-				<a class="icon-gplus" href="#"></a>
-				<a class="icon-twitch" href="#"></a>
-			</div>
-		</div>
-	</footer>
-
+	
 </body>
-</body>
+
 </html>
 `
 export default menu
