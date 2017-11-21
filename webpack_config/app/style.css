@@ -145,6 +145,11 @@
     box-sizing: border-box;
 }
 
+#tienda{
+  padding: 5px;
+  width: 48px;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -191,10 +196,13 @@ footer .contenedor {
 }
 
 #uno{
-width: 25px;
+width: 30px;
 
 }
-
+#letra{
+  font-size: 25px;
+  color: #808080;
+}
 .copy {
     font-size: 20px;
 }
