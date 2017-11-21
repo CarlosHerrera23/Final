@@ -10,7 +10,7 @@ const menu = `
 <body>
 	<header>
 		<div class="contenedor">
-			<h1 class="icon-grocery-store">TechMarts</h1>
+			<img id="tienda" src="https://image.flaticon.com/icons/svg/321/321774.svg"><h1 class="icon-grocery-store">TechMarts</h1></img>
 			<input type="checkbox" id="menu-bar">
 			<label class="icon-th" for="menu-bar"></label>
 			
@@ -24,7 +24,7 @@ const menu = `
 			
 		</div>
 	</header>
-	
+
 </body>
 
 </html>
