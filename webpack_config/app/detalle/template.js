@@ -20,13 +20,13 @@ const template = (equipo) => {
               <p><strong>Camara:</strong> ${equipo.Camara}</p>
               <p><strong>Capacidad:</strong> ${equipo.Capacidad}</p>
               <p><strong>OS:</strong> ${equipo.OS}</p>
-               <div class="addtocart-bar" class="col-md-12" style = "text-align:center" >
-                      <h3><a id="borrar"  class= "button"style = "margin-top:50px; cursor:pointer"><p align="right">borrar</a></h3>
-                      <h3><a id="carrito"  class= "button"style = "margin-top:50px;cursor:pointer"><p align="right">Añadir Carrito</a></h3>
-                      <h3><a style = "margin-top:0px;cursor:pointer" class="button"><p align="right">Actualizar</a></h3>
-                      </div>
 
-                 <h2 style="cursor:pointer" id="atras1" class="section-title" onclick="history.back()" ><p align="right">Atras</p></h2>
+               <div>
+              
+                <a id="borrar" key="${equipo.id}" class= "button" style = "margin-top:50px; cursor:pointer">borrar</a>
+                   </div>
+
+                 <h2 style="cursor:pointer" id="atras1" onclick="history.back()" ><p align="right">Atras</p></h2>
             
               </div>
             </div>
@@ -34,26 +34,8 @@ const template = (equipo) => {
         </div>
       </div>
 
+      
   `
-   var borrarBtn = document.querySelector('#borrar')
-   borrarBtn.addEventListener('click', borrar)
-
-  function borrar () {
-        let doc = document;
-        let key  = doc.getElementById('borrar').getAttribute('key')
-
-
-        var confirmarBorrado = confirm("prueba")
-
-        console.log(confirmarBorrado)
-
-        if (key!=null && confirmarBorrado == true) {
-          var ref = db.ref("Categoria")
-          ref.child(key).remove()
-
-          page.redirect('/homepage')
-        }
-      }
 }
 
 module.exports = template
