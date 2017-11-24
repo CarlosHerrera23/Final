@@ -18,6 +18,9 @@ page('/detalle/:Phone', mostrarLoader, function (ctx, next) {
 
     var html =  templateDetalle(item)
     main.innerHTML= layout(html)
+
+     var borrarBtn = document.querySelector('#borrar')
+   borrarBtn.addEventListener('click', borrar)
     
   })
 })
@@ -38,4 +41,31 @@ function mostrarLoader (ctx, next) {
   var main = document.querySelector('main')
   main.innerHTML = layout(html)
   next()
+}
+
+
+  
+
+ function borrar () {
+
+  if (!firebase.apps.length) {
+  firebase.initializeApp(config)
+  }
+
+var db = firebase.database()
+  let doc = document;
+  let key  = doc.getElementById('borrar').getAttribute('key')
+
+  var confirmar = confirm("Se eliminara este producto")
+
+  console.log(confirmar)
+
+  if (key!=null && confirmar == true) {
+    var ref = db.ref("Categoria")
+    ref.child(key).remove()
+
+    page.redirect('/detalle')
+  }
+
+
 }
