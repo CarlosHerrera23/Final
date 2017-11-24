@@ -3,10 +3,11 @@ import layout from './layout'
 import homepage from './homepage'
 import contacto from './contacto'
 import acercade from './acercade'
-import categoria from './categoria'
-import detalle from './detalle'
+require('./categoria')
+require( './detalle')
 import firebase from 'firebase'
 import config from './config'
+import './nuevoequipo'
 import login from './login'
 
 
@@ -24,10 +25,6 @@ page('/acercade', () => {
 	main.innerHTML = layout(acercade)
 })
 
-page('/categoria', categoria)
-
-
-page('/detalle', detalle)
 
 page('/login', () => {
 	main.innerHTML = layout(login)

@@ -23,6 +23,12 @@ body{
   }
 
 </style>
+<section>
+		<header>
+			<h1 class="section-title">Ingreso De Secion</h1>
+			<h2 style ="cursor:pointer" id="atras1" class="section-title" onclick="history.back()" ><p align="right">Atras</p></h2>
+		</header>
+</section>
 <br>
 <h4 id ="letra" class="card-title center">Entrar / Salir</h4>
          	<div class="row">

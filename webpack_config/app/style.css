@@ -1,3 +1,8 @@
+/*Guardar*/
+
+/*Guardar*/
+
+
 /*incio de secion*/
 .loginBtn {
   box-sizing: border-box;
@@ -231,7 +236,7 @@ width: 30px;
 
 @media (min-width:1024px) {
     .contenedor {
-        width: 1000px;
+        width: 1200px;
     }
 }
 
@@ -324,7 +329,7 @@ width: 30px;
     background: #000;
     color: #fff;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
 }
 
 #info .contenedor {
@@ -334,7 +339,7 @@ width: 30px;
 }
 
 .info-pet {
-    margin: 20px;
+    margin: 40px;
 }
 
 .info-pet img {
@@ -357,6 +362,8 @@ width: 30px;
 }
 
 /*Menu de inicio ,adecade, contacto,etc..*/
+
+
 #menu-bar {
     display: none;
 }

@@ -1,17 +1,15 @@
-
-
-const lista = (datos) => {
+const template = (datos) => {
   let rows = ''
-  let countRow = 0
+  let countRow = 1
   let keys = Object.keys(datos)
 
-	keys.map(key => {
+  keys.map(key => {
     let item = datos[key]
     rows +=  `
      <tr>
       <td>${countRow++}</td>
-      <td><a href="/detalle/${key}">${item.Equipos Moviles}</a></td>
-      
+      <td><a href="/detalle/${key}" class="letra">${item.Phone}</a></td>
+      <td></td>
     </tr>
     `
   })
@@ -20,9 +18,9 @@ const lista = (datos) => {
   <table class="striped">
     <thead>
       <tr>
-        <th>#</th>
-        <th>Equipos Moviles</th>
-        
+        <th>Numero</th>
+        <th>Smartphone</th>
+        <th>Precio</th>
       </tr>
     </thead>
     <tbody>
@@ -35,8 +33,10 @@ const lista = (datos) => {
     <div class="col s12">
       <div class="card">
         <div class="card-content">
-          <span class="card-title">Lista </span>
+          <span class="card-title">Lista de datos</span>
+          <br><br><br><br>
           ${table}
+          <h2 style="cursor:pointer" id="atras1" class="section-title" onclick="history.back()" ><p align="right">Atras</p></h2>
         </div>
       </div>
     </div>
@@ -44,4 +44,5 @@ const lista = (datos) => {
 
   return card
 }
-export default lista
+
+module.exports = template

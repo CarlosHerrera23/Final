@@ -6,4 +6,5 @@
     storageBucket: "techstorefinal.appspot.com",
     messagingSenderId: "216629161850"
   }
+  
   export default config

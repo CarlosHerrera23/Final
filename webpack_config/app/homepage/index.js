@@ -4,8 +4,8 @@ const homepage = `
 		<section id="banner">
 			<img src="https://www.tiendascorripio.com.do/wp-content/uploads/2016/03/TDC_BannerWEB_LB_mobile.png">
 			<div class="contenedor">
-				<h2>TechMarts Equipos Moviles & Mas</h2>
-				<p>Quieres Conocer mas Hacerca de La tienda</p>
+				<font color="black"><h2>TechMarts Equipos Moviles & Mas</h2></font>
+				<font color="black"><p>Quieres Conocer mas Hacerca de La tienda</p></font>
 				<a href="/acercade">Leer Mas</a>
 			</div>
 		</section>
