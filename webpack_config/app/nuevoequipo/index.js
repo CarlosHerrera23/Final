@@ -68,7 +68,7 @@ var formTemplate = `
 								<!--<h2 class="section-title">fecha</h2>
 								<input type="text" placeholder="Nombre" id="fecha">-->
 							</div> <!-- .column -->
-							<div class="col-md-12" style = "text-align:right" >
+							<div class="col-md-12" style = "text-align:right; cursor:pointer" >
 								<a id="guardar">Guardar</a>
 							</div>
 						</div>
