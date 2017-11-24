@@ -43,7 +43,7 @@ const homepage = `
 				</article>
 				<article>
 					<img src="http://articlewebbies.com/wp-content/uploads/2017/05/oneplus-3-smartphone-6GB-ram-64GB-storage-400x400.jpg">
-					<h4>One Plus 3+</h4>
+					<h4>One Plus 3++</h4>
 				</article>
 
 			</div>
