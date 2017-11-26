@@ -20,7 +20,23 @@ page('/guardar',() => {
 
 
 var formTemplate = `
-
+<style type="text/css">
+  .guardar2{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+  }
+  .guardar2:hover{
+    color: #1883ba;
+    background-color: #ffffff;
+  }
+  
+</style>
 
 <div class="page">
 	<form>
@@ -32,7 +48,7 @@ var formTemplate = `
 						<section>
 					<header>
 						<h1 class="section-title">Guardar Nuevo Datos</h1>
-						<h2 style ="cursor:pointer" id="atras1" class="section-title" onclick="history.back()" ><p align="right">Atras</p></h2>
+						<h2 style ="cursor:pointer" id="atras1" class="section-title2" onclick="history.back()" ><p align="right">Atras</p></h2>
 					</header>
 					</section>
 					<br>
@@ -69,7 +85,7 @@ var formTemplate = `
 								<input type="text" placeholder="Nombre" id="fecha">-->
 							</div> <!-- .column -->
 							<div class="col-md-12" style = "text-align:right; cursor:pointer" >
-								<a id="guardar">Guardar</a>
+								<br><br><a id="guardar" class="guardar2">Guardar</a>
 							</div>
 						</div>
 					</td>
