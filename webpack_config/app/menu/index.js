@@ -22,6 +22,7 @@ const menu = `
 				<a href="/categoria">Equipos Moviles</a>
 				<a href="/login">Inicio De Secion</a>
 				<a href="/guardar">Guardar</a>
+				<a href="/edicion">Edicion De Equipo</a>
 				
 			</nav>
 			
