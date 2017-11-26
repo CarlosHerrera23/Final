@@ -21,6 +21,8 @@ page('/detalle/:Phone', mostrarLoader, function (ctx, next) {
 
      var borrarBtn = document.querySelector('#borrar')
    borrarBtn.addEventListener('click', borrar)
+   var btn_actualizar = document.querySelector('#actualizar')
+    btn_actualizar.addEventListener('click', update1)    
     
   })
 })
@@ -64,8 +66,46 @@ var db = firebase.database()
     var ref = db.ref("Categoria")
     ref.child(key).remove()
 
-    page.redirect('/detalle')
+    
   }
 
+page.redirect('/detalle')
+}
 
+function update1(){  
+  let doc = document;
+  let key  = doc.getElementById('actualizar').getAttribute('key')
+
+  let Equipo1  = doc.querySelector('#Phone').value
+  let Camara1  = doc.querySelector('#Camara').value
+  let Capacidad1  = doc.querySelector('#Capacidad').value
+  let OS1  = doc.querySelector('#OS').value
+  let Color1  = doc.querySelector('#Color').value
+  let img  = doc.getElementById('actualizar').getAttribute('URL')
+
+
+ 
+
+var updates = {};
+
+var postData = {
+    id: key,
+    Phone: Equipo1,
+    Camara: Camara1,
+    Capacidad: Capacidad1,
+    Color:Color1,
+    OS: OS1,
+    URL: img
+};
+
+
+console.log(postData)
+
+updates['/Categoria/' + key] = postData;
+
+console.log(updates)
+
+firebase.database().ref().update(updates);
+
+page.redirect('/categoria')
 }
