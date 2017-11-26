@@ -120,14 +120,14 @@ function guardar (e){
 		return snapshot.downloadURL
 	})
 	.then(imgURL => {
-		var ref = db.ref("categoria")
+		var ref = db.ref("Categoria")
 		ref.push({
 			Camara: document.querySelector('#Camara').value,
 			Capacidad: document.querySelector('#Capacidad').value,
 			Color: document.querySelector('#Color').value,
 			OS: document.querySelector('#OS').value,
 			Phone: document.querySelector('#Phone').value,
-			Imagen: imgURL
+			URL: imgURL
 		})
 
 		page.redirect('/categoria')
