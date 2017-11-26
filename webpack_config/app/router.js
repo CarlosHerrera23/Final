@@ -8,6 +8,8 @@ require( './detalle')
 import firebase from 'firebase'
 import config from './config'
 import './nuevoequipo'
+require('./edicion')
+require('./edicion/index.js')
 import login from './login'
 
 
